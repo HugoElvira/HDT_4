@@ -3,8 +3,8 @@
  */
 
 /**
- * @author Grupo 8 Hugo Elvira, Dieter de Wit, Gerardo Cardoza
- * @version 25/07/2016
+ * @author Pareja 9 Hugo Elvira 15249 y Edgar Ramírez 15236
+ * @version 11/08/2016
  * @descripcion: interface para la calculadora
  * @param <E>
  */

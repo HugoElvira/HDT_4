@@ -6,8 +6,9 @@ import java.io.FileReader;
  */
 
 /**
- * @author Grupo 8 Hugo Elvira, Dieter de Wit, Gerardo Cardoza
- * @version 25/07/2016
+ * @author Pareja 9 Hugo Elvira 15249 y Edgar Ramírez 15236
+ * @version 11/08/2016
+ * @Description Realiza la operacion contenida en el archivo .txt
  */
 public class Calculadora implements I_Calculadora{
 
