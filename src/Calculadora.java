@@ -15,8 +15,10 @@ public class Calculadora implements I_Calculadora{
 	/**
 	 * 
 	 */
-	
-	Pila pila = new Pila();//se crea la pila
+
+	//Pila pila = new Pila();//se crea la pila
+	PilaArray pila = new PilaArray();  //se crea la pila
+
 	
 	public Calculadora() {
 		// TODO Auto-generated constructor stub
