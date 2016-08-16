@@ -10,7 +10,7 @@
 public class PilasFactory {
 	
     /**
-     * @return
+     * @Descripcion: instancia un objeto del tipo correspondiente segun los parametros pila y tipo en donde sea llamado
      */
     public AbstractPila getPila(int pila, int tipo ){
         if (pila==3)
@@ -27,8 +27,7 @@ public class PilasFactory {
     }
 	
     /**
-     * @param x
-     * @return
+     *@Descripcion: instancia un objeto del tipo correspondiente segun los parametros pila y tipo en donde sea llamado
      */
     public AbstractList getList(int x){
         if (x==3)

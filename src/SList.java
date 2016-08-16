@@ -1,6 +1,7 @@
 /**
- * @author Pareja 9 Hugo Elvira 15249 y Edgar Ramírez 15236
+ * @author Pareja 9 Hugo Elvira 15249 y Edgar Ramírez 15236 (solo modificamos algunas cosas)
  * @version 11/08/2016
+ * @description: lista simplemente enlazada (codigo reutilizado de internet con fines universitarios, autor original JULIO)
  */
 
 

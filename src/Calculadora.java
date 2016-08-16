@@ -18,10 +18,9 @@ public class Calculadora implements I_Calculadora{
     private AbstractPila<Integer> pila;
     PilasFactory Pilafactory = new PilasFactory(); 
 
-	//Pila pila = new Pila();//se crea la pila
-	//PilaArray pila = new PilaArray();  //se crea la pila
-
-	
+	/**
+	 *@constructor crea el objeto segun los parametros usando la clase factory
+	 */
     public Calculadora(int Pila, int tipo){
         pila = Pilafactory.getPila(Pila,tipo);
     }
