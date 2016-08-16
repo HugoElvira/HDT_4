@@ -13,6 +13,9 @@ public class testHDT4 {
 	int resultado=0;
 	String cadena1;
 
+	/**
+	 * @descripcion: pruebas JUnit de metodo calcular con Listas simplemente enlazadas
+	 */
 	@Test
 	public void test() {
 		 Calculadora c = new Calculadora(1,1);
@@ -34,6 +37,9 @@ public class testHDT4 {
 			assertEquals(40, resultado);
 	}
 	
+	/**
+	 * @descripcion: pruebas JUnit de metodo calcular con clase vector
+	 */
 	@Test
 	public void test1() {
 		 Calculadora c = new Calculadora(3,1);
@@ -55,6 +61,9 @@ public class testHDT4 {
 			assertEquals(40, resultado);
 	}
 	
+	/**
+	 * @descripcion: pruebas JUnit de metodo LeerArchivo
+	 */
 	@Test
 	public void test2() {
 		 Calculadora c = new Calculadora(3,1);
