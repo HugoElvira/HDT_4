@@ -6,10 +6,11 @@ import java.util.Vector;
  */
 
 /**
- * @author Pc
- *
+ * @author Pareja 9 Hugo Elvira 15249 y Edgar Ramírez 15236
+ * @version 11/08/2016
  */
-public class PilaArray<E> implements I_Stack<E> {
+
+public class PilaArray<E> extends AbstractPila<E> {
 		
 	private ArrayList<E> miPilaArray;
 	

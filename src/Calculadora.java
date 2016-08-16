@@ -15,15 +15,16 @@ public class Calculadora implements I_Calculadora{
 	/**
 	 * 
 	 */
+    private AbstractPila<Integer> pila;
+    PilasFactory Pilafactory = new PilasFactory(); 
 
 	//Pila pila = new Pila();//se crea la pila
-	PilaArray pila = new PilaArray();  //se crea la pila
+	//PilaArray pila = new PilaArray();  //se crea la pila
 
 	
-	public Calculadora() {
-		// TODO Auto-generated constructor stub
-	}
-
+    public Calculadora(int Pila, int tipo){
+        pila = Pilafactory.getPila(Pila,tipo);
+    }
 	
 	/**
 	 *@descripcion: recibe la línea de texto desde el documento txt y devuelve el total segun la operacion
@@ -41,12 +42,12 @@ public class Calculadora implements I_Calculadora{
 		catch(Exception e){ //si el elemento no era un numero, se verifica las 4 posibilidades de operando existentes para calcular el total
 			switch(arreglo){
 			case "+":
-				total = (int)pila.Pop() + (int)pila.Pop();
+				total = (int) (pila.Pop() + pila.Pop());
 				pila.Push(total);
 				break;
 				
 			case "*":
-				total = (int)pila.Pop() * (int)pila.Pop();
+				total = (int)(pila.Pop() * pila.Pop());
 				pila.Push(total);
 				break;
 				
